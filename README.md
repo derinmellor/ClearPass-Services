@@ -5,7 +5,7 @@
 The purpose of this code is to extract the ClearPass Policy        
 Manager Service configuration details account.                    
 This uses the legacy ClearPass XML interface - the configuration  
-information is not exposed via the RESTful API as ot ClearPass    
+information is not exposed via the RESTful API as of ClearPass    
 v6.9.5.                                                           <BR>
 WARNING: This code has only had minimal testing on v6.9 code,     
 though I will expect it to work on v6.8 and v6.7.                 <BR><BR>
