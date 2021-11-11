@@ -19,7 +19,7 @@
 # Author: Derin Mellor                                              #
 # Date: 21st April 2021                                             #
 # Version: 0.2                                                      #
-# Contact: derin.mellor@blueskysystems.com                          #
+# Contact: mellor.derin@gmail.com                                   #
 #                                                                   #
 # Changes                                                           #
 # 0.1 First version                                                 #
@@ -3721,12 +3721,12 @@ if __name__=='__main__':
     
     print('Welcome to ClearPass Services Report')
 
-    now=datetime.today()
-    expire=datetime.strptime(EXPIRE, '%Y-%m-%d')
-    print('WARNING: This code will expire on ',expire)
-    if now>expire: 
-        print('The code has expired')
-        sys.exit(0)
+#    now=datetime.today()
+#    expire=datetime.strptime(EXPIRE, '%Y-%m-%d')
+#    print('WARNING: This code will expire on ',expire)
+#    if now>expire: 
+#        print('The code has expired')
+#        sys.exit(0)
 
     index=1
     argc=len(sys.argv)
